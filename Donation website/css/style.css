@@ -1,0 +1,181 @@
+body{
+    background-color:#3faaca;
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.main-heading{
+    display: flex;
+    text-align: center;
+    background-color:yellowgreen;
+    flex-direction: row;
+}
+.main-heading{
+    text-align: center;
+}
+#title-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+
+}
+.img{
+    width:125px;
+    
+}
+.main-title{
+    font-size: 5em;
+    color:blue;
+}
+.subtitle{
+    text-align:centre;
+    font-size: 50px;
+    margin-left:100px;  
+    color:red;
+}
+.main-container{
+    width:100%;
+    color:blueviolet;
+}
+.flex-container{
+   
+    padding: 0px;
+    margin:0 5px;
+    border-radius: 10px;
+    background-color:white;
+    text-align: center;
+    font-size: 30px;
+} 
+.flex-container a{
+    text-decoration:none;
+}
+.flex-container ul{
+    list-style-type: none;
+}
+.flex-container li{
+    display: inline;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.flex-container a:hover{
+    background-color:black;
+    color:rgb(245, 231, 231);
+}
+
+
+
+.marquee1{
+    color:red;
+    font-size:22px;
+    margin: 0px;
+}
+
+.mySlides{
+    width: 1500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: black;
+}
+
+.slideshow {
+    max-width:100%;
+    max-height: 100%
+}
+#imgid{
+    
+    height:300px;
+    width:100%;
+    margin:0 5px;
+}
+
+.donateb button{
+    color:black;
+    background-color:rgb(250, 236, 44);
+    padding: 40px;
+    width: 300px;
+    font-size: 20px;
+    margin:0 40%;
+    
+    border-radius: 50px;
+}
+
+.donateb button:hover{
+    background-color:rgba(161, 42, 145, 0.568);
+}
+.feedback{
+    display: flex;
+    width:100%;
+    font-size: 30px;
+    flex-direction:row;
+    text-decoration-line: unset;
+    text-align: center;
+    background-color: green;
+    
+
+}
+.item{
+    padding-right:10%;
+    list-style-type: none;
+    text-decoration-line: unset;
+    text-align: center;
+
+
+}
+.item a{
+    color:black;
+    text-decoration-line: unset;
+    text-align: center;
+
+    
+}
+.item a:hover{
+    background-color: white;
+    color:red;
+}
+
+.midblock{
+    height: 150px;
+}
+.footer{
+    background-color: black;
+    color: beige;
+    height: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+/*##############   Contact  css code    ############*/
+
+.Cbox{
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+/*################  Aboutus css code     ####################*/
+
+.aboutus1{
+    background-color: azure;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+.aboutus1 h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+

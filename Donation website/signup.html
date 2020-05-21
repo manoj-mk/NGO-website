@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Donor's details</title>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" media="screen" href="signup.css">
+          
+        </head>
+        <body style="background-image:url(12902.jpg)" >
+
+        <div class="box">
+            <div class="box2">
+            <h1>Details of Donor</h1>
+            <form id="theform" action="signup.php" method="POST">     
+               
+
+                <div class="row">
+                <label for="new_Donor_name">Enter Name</label>
+                
+                <input name ="new_Donor_name" type="text" required id="text" placeholder="Your full name">
+                <br><br>
+                
+                </div>
+                
+
+               
+                
+                <div class="row">
+                <label for="donors_email" >Enter Email:</label>
+                <input name ="donors_email" type="text" required id="text" id= "donors_email"  placeholder="email address">
+                <br><br>
+            </div>
+                
+                
+                
+                <div class="row">
+                <label for="donors_mobile" >Enter Contact No:</label>
+                <input name = "donors_mobile" type="text" required id="text" id= "donors_mobile"  
+                pattern="[0-9]{10}"placeholder="Mobile Number">
+                <br><br>
+            </div>
+                
+
+                <div class="row">
+                <label for="donors_country">Enter country</label>
+                <input name="donors_country" type="text" required id="text" id= "donors_country" placeholder="Your country">
+                <br><br>
+                </div>
+
+                <div class="row">
+                <label for="donors_state">Enter state</label>
+                <input name="donors_state" type="text" required id="text" id= "donors_text" placeholder="Your state">
+                <br><br>
+                </div>
+
+                <div class="row">
+                <label for="donors_city">Enter city</label>
+                <input name="donors_city" type="text" required id="text" id= "donors_city" placeholder="Your city name">
+                <br><br>
+                </div>
+
+
+                
+                <div class="row">
+                <label for="donors_pincode" >Enter Area Pincode:</label>
+                <input name = "donors_pincode" type="text" required id="text" id= "donors_pincode"  
+                pattern="[0-9]{6}"placeholder="city pincode">
+                <br><br>
+                </div>
+            
+                <div class="row">
+                    <label for="amount" ><b>Amount:</b> </label>
+                    <input name = "donors_amount" type="number" required id="text" id= "donors_amount"  
+                    placeholder="Amount">
+                    <br><br>
+                    </div>
+                               
+
+               
+<a></a>
+                
+                <button>Donate Now</button>
+            </form></div>
+        </div>
+    </body>
+</html>

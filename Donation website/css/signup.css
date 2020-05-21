@@ -1,0 +1,68 @@
+body{
+       
+    margin-top: 200px ; 
+    margin-left: 550px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+#theform{
+    color: black;
+    display: table;
+    
+}
+.row{
+    display: table-row;
+    text-align: justify
+    padding: 15px;
+
+}
+.row label{
+    display: table-cell;
+    text-align: justify;
+    padding: 2px;
+
+
+}
+.row input{
+    display: table-cell;
+    padding: 2px;
+}
+
+/*header{
+    margin-left: 900px ;
+}
+#usertype{
+   padding-right: 4px ; 
+   block-size: 25px ; 
+   border-color: black ; 
+}
+#main
+{
+    margin-left: 600px ;
+}
+#LogIN{
+    margin-left: 100px ; 
+    border-block-end-color: black ; 
+    block-size: 25px ; 
+
+}
+#signup{
+    margin-left: 605px ;
+    block-size: 25px ;  
+    border-block-end-color:  black ; 
+}
+#FP{
+    margin-left: 175px;
+    margin-bottom: 50px;
+    
+}
+#username{
+    margin-left: 8px ; 
+    block-size: 25px ; 
+    border-block-end-color: black ; 
+}
+#userpassword{
+    margin-left: 2px ; 
+    block-size: 25px ; 
+    border-block-end-color:  black ; 
+}*/

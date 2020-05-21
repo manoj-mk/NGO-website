@@ -1,0 +1,313 @@
+body{
+    margin: 0 2px;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: rgb(240, 111, 64) ;
+}
+a{
+    text-decoration: none;
+}
+.main-heading{
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+}
+.main-heading h1{
+    margin: 0;
+    padding: 0; 
+    color: rgb(18, 159, 214);
+    text-shadow: 2px 2px orange;
+}
+.main-heading img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px; 
+    border: solid 2px skyblue;
+    margin-left: 5px;
+}
+.flex-container{
+    padding: 0px;
+    margin:0;
+    font-size: 22px;
+    margin-left: auto;
+} 
+
+.flex-container ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0; 
+    margin-right: 5px;
+}
+.flex-container li{
+    padding: 0 1    0px;
+    padding-bottom: 0px;
+    margin-left: 35px;
+    
+}
+.flex-container a{
+    color: wheat;
+}
+.flex-container a:hover{
+    background-color:black;
+    color:rgb(245, 231, 231);
+}
+
+
+.marquee1{
+    color:rgb(3, 3, 3);
+    font-size:16px;
+    margin: 2px 0;
+    background-color: #E6E6E6;
+}
+
+.mySlides{
+    width: 1500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: black;
+}
+
+.slideshow {
+    max-width:100%;
+    max-height: 100%
+}
+
+.mySlides1{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+}
+
+.slideshow1 {
+    max-width:100%;
+    max-height: 100%
+}
+
+
+.donateb button{
+    display: block;
+    color:black;
+    background-color:rgb(250, 236, 44);
+    padding: 40px;
+    width: 300px;
+    font-size: 20px;
+    margin:0 auto;
+    border-radius: 50px;
+    border: solid ;
+}
+.image-container-1{
+    margin: 10px 0 0 0;
+}
+.donateb button:hover{
+    background-color:rgba(42, 127, 161, 0.568);
+    color:fuchsia;
+}
+
+.donateb button:active{
+    background-color: blue;
+    color:black;
+}
+.image-container-2{
+    margin: 30px 0;
+}
+.feedback{
+    display: flex;
+    font-size: 15px;
+    background-color: rgb(32, 31, 31);
+    color: wheat;
+    justify-content:  center;
+    
+}
+.inner-feedback{
+    display: flex;
+    flex-direction:column;
+    margin-left: 30px;
+    margin: 10px;
+    
+}
+.feedback li{
+    list-style-type: none;
+}
+.feedback a{
+    color: wheat;
+}
+.inner-feedback li, .branches li{
+    margin: 10px 0 0 0;
+}
+.branches{
+    margin: 10px;
+
+}
+.footer{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    
+}
+
+/*##############   Contact  css code    ############*/
+
+.Cbox{
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+/*##############   Vision  css code    ############*/
+.vbox{
+    width: 900px;
+    border: 1px solid rgb(27, 13, 13);
+    padding: 20px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+/*################  Aboutus css code     ####################*/
+
+.aboutus1{
+    background-color: azure;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+.aboutus1 h1{
+    text-align: center;
+}
+
+/*############### History css code #################   */
+h1,h2,p{
+    text-align: center;
+
+}
+.box{
+    border: 1px solid black;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*############### donation css code #################   */
+.box_donation{
+    text-align: center;
+    border: 1px solid black;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*############### successful donation css code #################   */
+.successfull_donation{
+    text-align: center;
+    border: 1px solid black;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*############### unsuccessful donation css code #################   */
+.unsuccessfull_donation{
+    text-align: center;
+    border: 1px solid black;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*############### login page css code #################   */
+.login_box{
+    text-align: center;
+    border: 1px solid black;
+    width: 800px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+/*############### team  css code #################   */
+.T1box{
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:lightpink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height : 200 px;
+    align-self: auto;
+}
+.T2box{
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightsteelblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height : 200 px;
+    align-self: auto;
+}
+.T3box{
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height : 200 px;
+    align-self: auto;
+}
+.T4box{
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height : 200 px;
+    align-self: auto;
+}
+.T5box{
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height : 200 px;
+    align-self: auto;
+}
+/*############### feedback css code #################   */
+.form{
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height : 200 px;
+    align-self: auto;  
+}
